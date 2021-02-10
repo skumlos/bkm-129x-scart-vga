@@ -1,0 +1,299 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "BKM-129X Compatible full, onboard MCU"
+Date ""
+Rev "B"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L bkm-129x-scart-vga-rescue:ATMEGA328PB-AU U6
+U 1 1 5F1F180C
+P 5150 3500
+F 0 "U6" H 4750 4975 50  0000 R BNN
+F 1 "ATMEGA328PB-AU" H 4750 4900 50  0000 R BNN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 5100 2100 50  0001 L CIN
+F 3 "" H 4850 3550 50  0001 C CNN
+	1    5150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bkm-129x-scart-vga-rescue:Crystal_GND2 Y1
+U 1 1 5F1F1898
+P 7300 2950
+F 0 "Y1" H 7300 3175 50  0000 C CNN
+F 1 "CSTNE16M0VH3L000R0" H 7300 3100 50  0000 C CNN
+F 2 "muRata-CSTNEx:CSTNEx" H 7300 2950 50  0001 C CNN
+F 3 "" H 7300 2950 50  0001 C CNN
+	1    7300 2950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6450 2900 7050 2900
+Wire Wire Line
+	7050 2900 7050 2700
+Wire Wire Line
+	7050 2700 7300 2700
+Wire Wire Line
+	7300 2700 7300 2800
+Wire Wire Line
+	6450 3000 7050 3000
+Wire Wire Line
+	7050 3000 7050 3200
+Wire Wire Line
+	7050 3200 7300 3200
+Wire Wire Line
+	7300 3200 7300 3100
+$Comp
+L power:GNDD #PWR080
+U 1 1 5F1F1A3C
+P 7500 2950
+F 0 "#PWR080" H 7500 2700 50  0001 C CNN
+F 1 "GNDD" V 7500 2750 50  0000 C CNN
+F 2 "" H 7500 2950 50  0001 C CNN
+F 3 "" H 7500 2950 50  0001 C CNN
+	1    7500 2950
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6550 3800 2    60   Input ~ 0
+~MCU_RESET
+Wire Wire Line
+	6450 3800 6550 3800
+$Comp
+L power:GNDD #PWR081
+U 1 1 5F1F5487
+P 5000 5100
+F 0 "#PWR081" H 5000 4850 50  0001 C CNN
+F 1 "GNDD" V 5000 4900 50  0000 C CNN
+F 2 "" H 5000 5100 50  0001 C CNN
+F 3 "" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5000 4950 5050
+Wire Wire Line
+	4950 5050 5050 5050
+Wire Wire Line
+	5000 5050 5000 5100
+Wire Wire Line
+	5050 5050 5050 5000
+Connection ~ 5000 5050
+Text GLabel 6550 4200 2    60   Input ~ 0
+MCU_SLOT_ID
+Wire Wire Line
+	6450 4200 6550 4200
+Text GLabel 6550 4600 2    60   Input ~ 0
+~BX_OE
+Text GLabel 6950 4700 2    60   Input ~ 0
+~EXT_SYNC_OE
+Wire Wire Line
+	6450 4600 6550 4600
+Wire Wire Line
+	6450 4700 6950 4700
+Text GLabel 6550 2800 2    60   Input ~ 0
+MCU_SCK
+Wire Wire Line
+	6450 2800 6550 2800
+Text GLabel 7350 2650 2    60   Input ~ 0
+MCU_MISO
+Wire Wire Line
+	6450 2700 6800 2700
+Wire Wire Line
+	6800 2700 6800 2650
+Wire Wire Line
+	6800 2650 7350 2650
+Text GLabel 6800 2550 2    60   Input ~ 0
+MCU_MOSI
+Wire Wire Line
+	6450 2600 6650 2600
+Wire Wire Line
+	6650 2600 6650 2550
+Wire Wire Line
+	6650 2550 6800 2550
+Text GLabel 7350 2450 2    60   Input ~ 0
+~MCU_SS
+Wire Wire Line
+	6450 2500 6750 2500
+Wire Wire Line
+	6750 2500 6750 2450
+Wire Wire Line
+	6750 2450 7350 2450
+NoConn ~ 6450 2300
+NoConn ~ 6450 2400
+NoConn ~ 6450 4000
+NoConn ~ 6450 4100
+NoConn ~ 6450 4300
+NoConn ~ 6450 4500
+NoConn ~ 6450 4400
+NoConn ~ 6450 3200
+NoConn ~ 6450 3300
+NoConn ~ 6450 3400
+NoConn ~ 6450 3500
+NoConn ~ 6450 3600
+NoConn ~ 6450 3700
+NoConn ~ 3850 4100
+NoConn ~ 3850 4300
+NoConn ~ 3850 4400
+$Comp
+L bkm-129x-scart-vga-rescue:C C16
+U 1 1 5F1F6C18
+P 4650 1650
+F 0 "C16" H 4675 1750 50  0000 L CNN
+F 1 "4.7uF" H 4675 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4688 1500 50  0001 C CNN
+F 3 "" H 4650 1650 50  0001 C CNN
+	1    4650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L bkm-129x-scart-vga-rescue:C C15
+U 1 1 5F1F6C65
+P 4400 1650
+F 0 "C15" H 4425 1750 50  0000 L CNN
+F 1 "1uF" H 4425 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4438 1500 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR082
+U 1 1 5F1F6CE5
+P 4400 1400
+F 0 "#PWR082" H 4400 1250 50  0001 C CNN
+F 1 "+5VD" H 4400 1540 50  0000 C CNN
+F 2 "" H 4400 1400 50  0001 C CNN
+F 3 "" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1400 4400 1500
+Wire Wire Line
+	4650 1450 4650 1500
+Connection ~ 4400 1450
+Wire Wire Line
+	4850 1900 5050 1900
+Wire Wire Line
+	5050 1450 5050 2000
+$Comp
+L bkm-129x-scart-vga-rescue:C C17
+U 1 1 5F1F6E50
+P 3600 2600
+F 0 "C17" H 3625 2700 50  0000 L CNN
+F 1 "100nF" H 3625 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 2450 50  0001 C CNN
+F 3 "" H 3600 2600 50  0001 C CNN
+	1    3600 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDD #PWR083
+U 1 1 5F1F6EA7
+P 3350 2600
+F 0 "#PWR083" H 3350 2350 50  0001 C CNN
+F 1 "GNDD" V 3350 2400 50  0000 C CNN
+F 2 "" H 3350 2600 50  0001 C CNN
+F 3 "" H 3350 2600 50  0001 C CNN
+	1    3350 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2600 3850 2600
+Wire Wire Line
+	3350 2600 3450 2600
+Connection ~ 5050 1900
+Connection ~ 4650 1450
+Wire Wire Line
+	4850 2000 4850 1900
+Wire Wire Line
+	4650 1850 4650 1800
+Wire Wire Line
+	4400 1850 4400 1800
+Connection ~ 4400 1850
+$Comp
+L power:GNDD #PWR084
+U 1 1 5F1F802F
+P 4400 1850
+F 0 "#PWR084" H 4400 1600 50  0001 C CNN
+F 1 "GNDD" V 4400 1650 50  0000 C CNN
+F 2 "" H 4400 1850 50  0001 C CNN
+F 3 "" H 4400 1850 50  0001 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3850 4200
+$Comp
+L bkm-129x-scart-vga-rescue:Conn_02x03_Odd_Even J6
+U 1 1 5F1FE23D
+P 8600 3400
+F 0 "J6" H 8650 3600 50  0000 C CNN
+F 1 "ICSP" H 8650 3200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 8600 3400 50  0001 C CNN
+F 3 "" H 8600 3400 50  0001 C CNN
+	1    8600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR085
+U 1 1 5F1FE2BE
+P 8950 3550
+F 0 "#PWR085" H 8950 3300 50  0001 C CNN
+F 1 "GNDD" V 8950 3350 50  0000 C CNN
+F 2 "" H 8950 3550 50  0001 C CNN
+F 3 "" H 8950 3550 50  0001 C CNN
+	1    8950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR086
+U 1 1 5F1FE30F
+P 8950 3250
+F 0 "#PWR086" H 8950 3100 50  0001 C CNN
+F 1 "+5VD" H 8950 3390 50  0000 C CNN
+F 2 "" H 8950 3250 50  0001 C CNN
+F 3 "" H 8950 3250 50  0001 C CNN
+	1    8950 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 8950 3400 2    60   Input ~ 0
+MCU_MOSI
+Text GLabel 8350 3250 1    60   Input ~ 0
+MCU_MISO
+Text GLabel 8350 3550 3    60   Input ~ 0
+~MCU_RESET
+Text GLabel 8350 3400 0    60   Input ~ 0
+MCU_SCK
+Wire Wire Line
+	8900 3300 8950 3300
+Wire Wire Line
+	8950 3300 8950 3250
+Wire Wire Line
+	8900 3400 8950 3400
+Wire Wire Line
+	8900 3500 8950 3500
+Wire Wire Line
+	8950 3500 8950 3550
+Wire Wire Line
+	8350 3250 8350 3300
+Wire Wire Line
+	8350 3300 8400 3300
+Wire Wire Line
+	8350 3400 8400 3400
+Wire Wire Line
+	8350 3550 8350 3500
+Wire Wire Line
+	8350 3500 8400 3500
+Wire Wire Line
+	4400 1850 4650 1850
+Wire Wire Line
+	4400 1450 5050 1450
+$EndSCHEMATC

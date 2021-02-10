@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name arduino-nano-v3)(type KiCad)(uri "$(KIPRJMOD)/arduino-nano-v3.pretty")(options "")(descr ""))
+  (lib (name din-41612-64p-ra)(type KiCad)(uri "$(KIPRJMOD)/din-41612-64p-ra.pretty")(options "")(descr ""))
+  (lib (name PBH4UEE)(type KiCad)(uri "$(KIPRJMOD)/PBH4UEE.pretty")(options "")(descr ""))
+  (lib (name HD15-VGA)(type KiCad)(uri "$(KIPRJMOD)/hd15-vga.pretty")(options "")(descr ""))
+  (lib (name SCART)(type KiCad)(uri "$(KIPRJMOD)/ninigi-scart-ra.pretty")(options "")(descr ""))
+  (lib (name muRata-CSTNEx)(type KiCad)(uri "$(KIPRJMOD)/cstnex.pretty")(options "")(descr ""))
+  (lib (name CUI-JACK)(type KiCad)(uri "$(KIPRJMOD)/SJ1-353XNG.pretty")(options "")(descr ""))
+)

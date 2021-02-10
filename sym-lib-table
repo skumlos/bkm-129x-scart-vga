@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name bkm-129x-scart-vga-rescue)(type Legacy)(uri ${KIPRJMOD}/bkm-129x-scart-vga-rescue.lib)(options "")(descr ""))
+  (lib (name ths7374)(type Legacy)(uri ${KIPRJMOD}/ths7374.lib)(options "")(descr ""))
+  (lib (name arduino-nano-v3)(type Legacy)(uri ${KIPRJMOD}/arduino-nano-v3.lib)(options "")(descr ""))
+  (lib (name adg1611)(type Legacy)(uri ${KIPRJMOD}/adg1611.lib)(options "")(descr ""))
+  (lib (name dtc144eka)(type Legacy)(uri ${KIPRJMOD}/dtc144eka.lib)(options "")(descr ""))
+  (lib (name mic3490)(type Legacy)(uri ${KIPRJMOD}/mic3490.lib)(options "")(descr ""))
+  (lib (name pbsw_4pdt)(type Legacy)(uri ${KIPRJMOD}/pbsw_4pdt.lib)(options "")(descr ""))
+)
