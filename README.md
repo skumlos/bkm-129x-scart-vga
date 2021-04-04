@@ -39,6 +39,7 @@ Check the MCU code for verified compatibility.
 ---------
 
 Board revision history:
+
 C: Fixed THS7374 filter bypass, moved sync switch to front.
 
 B: Fixed audio routing
