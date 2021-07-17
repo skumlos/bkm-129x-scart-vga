@@ -40,6 +40,8 @@ Check the MCU code for verified compatibility.
 
 Board revision history:
 
+D1: Connect VGA pin 5 to GND
+
 D: Remove VGA pin 9 connectivity to GND and leave unconnected.
 
 C: Fixed THS7374 filter bypass, moved sync switch to front.
