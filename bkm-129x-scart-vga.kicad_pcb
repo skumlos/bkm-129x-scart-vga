@@ -2991,7 +2991,7 @@
   (gr_text "R1,3,14,18 - 10K\nR4 - 470R\nR6,7,8,9 - 150R\nR32,33,34 - 150R\nR10,11,12,13 - 75R\nR19,23 - 4K7\nR20,22,25,27 - 100K\nR2,21,24,26,28 - 100R\nR5,15,16 - 1K\nAll 0805 size / 1%" (at 128.8906 40.74) (layer F.SilkS)
     (effects (font (size 1.3 1.3) (thickness 0.25)) (justify left))
   )
-  (gr_text "U1 - ADG1611\nU2 - THS7374\nU3 - Arduino Nano v3\n      (5V/16MHz)\nU4 - 74VHC125\nU5 - MIC3490-5.0\nQ1 - DTC144EKA\nQ2 - MMBT3904\nD1 - YELLOW 0805 LED\nD2 - RED 0805 LED\nU1/2/4: TSSOP14\nSW1/SW2: PBH4UEEN\nJ3: CUI SJ1-353XNG\n(Like SJ1-3533NG)" (at 86.868 45.085) (layer F.SilkS)
+  (gr_text "U1 - ADG1611\nU2 - THS7374\nU3 - Arduino Nano v3\n      (5V/16MHz)\nU4 - 74VHC125\nU5 - MIC3490-3.3\nQ1 - DTC144EKA\nQ2 - MMBT3904\nD1 - YELLOW 0805 LED\nD2 - RED 0805 LED\nU1/2/4: TSSOP14\nSW1/SW2: PBH4UEEN\nJ3: CUI SJ1-353XNG\n(Like SJ1-3533NG)" (at 86.868 45.085) (layer F.SilkS)
     (effects (font (size 1.3 1.3) (thickness 0.25)) (justify left))
   )
   (gr_text "BKM-129X Compatible SCART-VGA Edition" (at 111.3028 28.2829) (layer F.SilkS)
