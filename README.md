@@ -1,6 +1,6 @@
 A SCART/VGA BKM-129X compatible board
 
-Revision D1
+Revision E
 
 Should be able to be created at ~$40, with the ADG1611 being the most expensive component.
 
@@ -39,6 +39,8 @@ Check the MCU code for verified compatibility.
 ---------
 
 Board revision history:
+
+E: Change backplane connector pads to larger ones. Includes silkscreen fix from user 'bodgit', thanks!
 
 D1: Connect VGA pin 5 to GND, fix MIC3490-3.3 -> MIC3490-5.0
 
