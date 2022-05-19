@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.10-88a1d61d58~88~ubuntu20.04.1"
+      "Version":     "5.1.12-84ad8e8a86~92~ubuntu20.04.1"
     },
-    "CreationDate":  "2021-09-08T21:28:07+02:00"
+    "CreationDate":  "2022-05-19T18:35:19+02:00"
   },
   "GeneralSpecs":
   {
@@ -50,6 +50,16 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "bkm-129x-scart-vga-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "bkm-129x-scart-vga-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
       "Path":  "bkm-129x-scart-vga-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
@@ -82,6 +92,10 @@
       "Notes":  "Layer F.SilkS"
     },
     {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
     },
@@ -101,6 +115,10 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
     },
     {
       "Type":  "Legend",

@@ -1,8 +1,9 @@
 A SCART/VGA BKM-129X compatible board
 
-Revision E
+Revision F
 
-Should be able to be created at ~$40, with the ADG1611 being the most expensive component.
+Should be able to be created at ~$40, with the ADG1611BRUZ being the most expensive component.
+Note that the DG1411EEQ is pin-compatible, with a slightly higher Ron.
 
 This requires an Arduino Nano v3 *or* the ATMEGA328PB mounted, which is then loaded with the
 latest BKM-129X-MCU code from https://github.com/skumlos/bkm-129x-mcu
@@ -40,6 +41,8 @@ Check the MCU code for verified compatibility.
 
 Board revision history:
 
+F: Add option for LD1117 LDO, update to Kicad 5 footprints, minor cosmetical changes
+
 E: Change backplane connector pads to larger ones. Includes silkscreen fix from user 'bodgit', thanks!
 
 D1: Connect VGA pin 5 to GND, fix MIC3490-3.3 -> MIC3490-5.0
@@ -54,7 +57,7 @@ A: Initial version
 
 ---------
 
-Copyright © 2021 Martin Hejnfelt <martin@hejnfelt.com>
+Copyright © 2022 Martin Hejnfelt <martin@hejnfelt.com>
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the LICENSE file for more details.
