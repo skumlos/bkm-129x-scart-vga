@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/martin/SkumServer/eda-projects/bkm-129x-scart-vga/bkm-129x-scart-vga.sch)
-    (date "2022-05-19T18:21:04 CEST")
+    (date "2022-05-20T05:31:10 CEST")
     (tool "Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -422,7 +422,7 @@
       (sheetpath (names /MCU/) (tstamps /5FB20956/))
       (tstamp 5F1FE23D))
     (comp (ref U101)
-      (value LD1117S50TR_SOT223)
+      (value LDL1117S50R)
       (footprint Package_TO_SOT_SMD:SOT-223-3_TabPin2)
       (datasheet http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf)
       (libsource (lib Regulator_Linear) (part LD1117S50TR_SOT223) (description "800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223"))
